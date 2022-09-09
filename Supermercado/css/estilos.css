@@ -1,3 +1,7 @@
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Oswald', sans-serif;
+}
+
 .menu{
     width: 100%;
     height: 100px;
@@ -39,6 +43,7 @@
     background-color: red;
     font-size: 20px;
 }
+
 /* estilos principal */
 .principal{
     width: 100%;
@@ -65,6 +70,88 @@
     background-color: yellow;
     color: black;
     padding: 7px 15px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+/* sesion descuento*/
+.descuentos{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.descuentos .imagenes-des img{
+    width: 300px;
+    height: 300px;
+}
+.imagenes-des{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+.titulo h2,
+.productos .titulo-pro{
+    font-size: 50px;
+    color: black;
+    font-weight: bold;
+}
+.titulo-pro h2{
+    font-size: 50px;
+}
+
+/* sesion productos*/
+.productos{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.con-productos{
+    width: 100%;
+    height: auto;    
+}
+.con-productos .tarjeta-pro{
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+    border: 1px solid red;
+}
+.tarjeta-pro img{
+    width: 100%;
+    height: 200px;
+}
+.tarjeta-pro .contenido{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.tarjeta-pro .contenido h3{
+    color: red;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.tarjeta-pro .contenido p{
+    font-size: 20px;
+}
+.tarjeta-pro .botones{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.tarjeta-pro .botones p{
+    font-weight: bold;
+    color: black;
+}
+.tarjeta-pro .botones a{
+    background-color: yellow;
+    color: black;
+    padding: 7px 12px;
     border-radius: 10px;
     text-decoration: none;
 }
