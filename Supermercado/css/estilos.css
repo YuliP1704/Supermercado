@@ -112,16 +112,19 @@ h1,h2,h3,h4,h5,h6{
 .con-productos{
     width: 100%;
     height: auto;    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 .con-productos .tarjeta-pro{
-    width: 400px;
-    height: 500px;
+    width: 300px;
+    height: auto;
     border-radius: 10px;
     border: 1px solid red;
 }
 .tarjeta-pro img{
     width: 100%;
-    height: 200px;
+    height: auto;
 }
 .tarjeta-pro .contenido{
     width: 100%;
